@@ -1,10 +1,11 @@
+import './App.css';
 import { Greet } from "./components/Greet";
 
 
 function App() {
   return (
     <div>
-      <Greet name ="Probir"/>
+      <Greet name ="Probir" dayCount={2} isLoggedIn={true}/>
     </div>
   );
 }
