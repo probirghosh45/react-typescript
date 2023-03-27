@@ -2,6 +2,7 @@ import "./App.css";
 import { Greet } from "./components/Greet";
 import { Person } from "./components/Person";
 import { PersonList } from "./components/PersonList";
+import { Status } from "./components/Status";
 
 function App() {
   const personName = {
@@ -20,6 +21,7 @@ function App() {
       <Greet name="Probir" dayCount={2} isLoggedIn={true} />
       <Person name={personName} />
       <PersonList names={list}/>
+      <Status status="success"/>
     </div>
   );
 }
